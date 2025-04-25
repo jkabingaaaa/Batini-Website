@@ -1,0 +1,77 @@
+{
+    "users": [],
+    "insuranceCompanies": [
+      {
+        "id": 1,
+        "name": "HealthGuard",
+        "category": "Health Insurance",
+        "policies": [
+          {
+            "name": "Basic Health",
+            "premium": 150,
+            "coverage": "Basic medical expenses",
+            "benefits": "Doctor visits, basic tests"
+          },
+          {
+            "name": "Premium Health",
+            "premium": 300,
+            "coverage": "Comprehensive medical",
+            "benefits": "Hospitalization, surgeries, specialist visits"
+          }
+        ],
+        "rating": 4.5,
+        "reviews": [
+          {
+            "user": "John Doe",
+            "comment": "Great coverage for the price",
+            "rating": 5
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "AutoShield",
+        "category": "Vehicle Insurance",
+        "policies": [
+          {
+            "name": "Standard Auto",
+            "premium": 80,
+            "coverage": "Liability coverage",
+            "benefits": "Accident protection"
+          }
+        ],
+        "rating": 4.2,
+        "reviews": []
+      },
+      {
+        "id": 3,
+        "name": "HomeSafe",
+        "category": "Home insurance",
+        "policies": [
+          {
+            "name": "Complete Home",
+            "premium": 200,
+            "coverage": "Full property protection",
+            "benefits": "Fire, theft, natural disasters"
+          }
+        ],
+        "rating": 4.7,
+        "reviews": []
+      },
+      {
+        "id": 4,
+        "name": "IPProtect",
+        "category": "Intellectual property Insurance",
+        "policies": [
+          { "name": "IP Basic",
+          "premium": 100,
+          "coverage": "Basic IP protection",
+          "benefits": "Legal defense for IP rights"
+        }
+      ],
+      "rating": 4.0,
+      "reviews": []
+    }
+  ],
+  "applications": []
+}
