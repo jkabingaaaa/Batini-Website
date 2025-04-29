@@ -1,4 +1,12 @@
-* {
+*
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,7 +22,8 @@
   .app {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100vh;  
+    width: 100%;
   }
   
   
@@ -61,16 +70,19 @@
   
 
   .app-main {
-    flex: 1;
-    padding: 2rem;
-    margin: 0 auto;
-    width: 100%;
+    flex: 1;  
+  width: 100%;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
   }
   
   .home-content {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    height: 100%;
+    width: 100%;
   }
   
   .category-buttons {
@@ -78,6 +90,8 @@
     flex-wrap: wrap;
   gap: 0.5rem;
   justify-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 .category-buttons button {
@@ -99,6 +113,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.5rem;
+  width: 100%;
+  flex-grow: 1; 
 }
 
 .company-card { background-color: white;
@@ -125,6 +141,9 @@
     border-radius: 8px;
     padding: 2rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  height: 100%;
+  flex-grow: 1;
   }
   
   .company-details button {
